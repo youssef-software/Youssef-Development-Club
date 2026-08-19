@@ -174,7 +174,7 @@ export default function SoloLevelingSystem() {
           if (data.equippedAvatarId) setEquippedAvatarId(data.equippedAvatarId);
           if (data.equippedTitleId) setEquippedTitleId(data.equippedTitleId);
           if (data.unlockedAvatars) setUnlockedAvatars(data.unlockedAvatars);
-          showToast("تم مزامنة بياناتك السحابية بنجاح!", "buff");
+          showToast("تم مزامنة بياناتك السحابية بنجاح", "buff");
         }
       }
 
